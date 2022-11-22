@@ -41,7 +41,7 @@ h1 {
     /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 2em;
 }
 
 .col {
@@ -51,6 +51,11 @@ h1 {
 
 header {
     background: #136c72;
+}
+
+.logo-img {
+    height: 100%;
+    width: 8em;
 }
 
 nav {
