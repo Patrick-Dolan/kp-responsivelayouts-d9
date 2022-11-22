@@ -51,7 +51,6 @@ h1 {
 
 header {
     background: #136c72;
-    padding: 0.5em 0;
 }
 
 nav {
@@ -59,6 +58,7 @@ nav {
     padding: 0;
     text-transform: uppercase;
     font-size: medium;
+    display: flex;
 }
 
 .nav__list {
@@ -68,6 +68,11 @@ nav {
     width: 100%;
     gap: 2em;
     align-items: center;
+    padding-left: 0;
+}
+
+.secondary-nav {
+    justify-content: flex-end;
 }
 
 .nav__link {
