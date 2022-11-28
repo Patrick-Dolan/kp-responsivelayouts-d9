@@ -157,3 +157,20 @@ main {
 .side-content p {
     padding-bottom: 2em
 }
+
+@media (max-width: 600px) {
+    .row {
+        display: block;
+    }
+
+    .hero__text, 
+    .hero__img,
+    .main-content,
+    .side-content {
+        width: 100%;
+    }
+
+    .hero__img {
+        margin-top: 2em;
+    }
+}
